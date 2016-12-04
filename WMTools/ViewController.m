@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "Toast.h"
+
+#import "WMExtention.h"
 
 @interface ViewController ()
 
@@ -24,5 +27,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)click:(UIButton *)sender forEvent:(UIEvent *)event {
+    [Toast makeToast:^(Toast *toast) {
+        toast.setMsg(@"233".add(event).rm_c(@"()[]{}<>\n"))
+        .hiddenAfter(900)
+        .show(AnimationTypeFade);
+    }];
+
+}
 
 @end

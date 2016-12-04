@@ -13,7 +13,15 @@
 		4EA7218A1DF3E6A500EAEEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA721881DF3E6A500EAEEEC /* Main.storyboard */; };
 		4EA7218C1DF3E6A500EAEEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA7218B1DF3E6A500EAEEEC /* Assets.xcassets */; };
 		4EA7218F1DF3E6A500EAEEEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA7218D1DF3E6A500EAEEEC /* LaunchScreen.storyboard */; };
-		4EA721991DF3EB2C00EAEEEC /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721981DF3EB2C00EAEEEC /* UIView+Extention.m */; };
+		4EA721BE1DF3F81F00EAEEEC /* WMTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4EA721BD1DF3F81F00EAEEEC /* WMTools.podspec */; };
+		4EA721C41DF3FF9C00EAEEEC /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721C31DF3FF9C00EAEEEC /* Toast.m */; };
+		4EA721CA1DF4031000EAEEEC /* NSString+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721C71DF4031000EAEEEC /* NSString+Extention.m */; };
+		4EA721CB1DF4031000EAEEEC /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721C91DF4031000EAEEEC /* UIView+Extention.m */; };
+		4EA721CE1DF41A3C00EAEEEC /* UIColor+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721CD1DF41A3C00EAEEEC /* UIColor+Extention.m */; };
+		4EA721D21DF41C0500EAEEEC /* UIAlertController+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721D11DF41C0500EAEEEC /* UIAlertController+Extention.m */; };
+		4EA721D51DF4207B00EAEEEC /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721D41DF4207B00EAEEEC /* UIImage+Extention.m */; };
+		4EA721DA1DF422D900EAEEEC /* UIButton+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721D71DF422D900EAEEEC /* UIButton+Extention.m */; };
+		4EA721DB1DF422D900EAEEEC /* UILabel+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA721D91DF422D900EAEEEC /* UILabel+Extention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +35,24 @@
 		4EA7218B1DF3E6A500EAEEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EA7218E1DF3E6A500EAEEEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EA721901DF3E6A500EAEEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EA721971DF3EB2C00EAEEEC /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
-		4EA721981DF3EB2C00EAEEEC /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
+		4EA721BD1DF3F81F00EAEEEC /* WMTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WMTools.podspec; sourceTree = "<group>"; };
+		4EA721C21DF3FF9C00EAEEEC /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		4EA721C31DF3FF9C00EAEEEC /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		4EA721C61DF4031000EAEEEC /* NSString+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extention.h"; sourceTree = "<group>"; };
+		4EA721C71DF4031000EAEEEC /* NSString+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extention.m"; sourceTree = "<group>"; };
+		4EA721C81DF4031000EAEEEC /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
+		4EA721C91DF4031000EAEEEC /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
+		4EA721CC1DF41A3C00EAEEEC /* UIColor+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extention.h"; sourceTree = "<group>"; };
+		4EA721CD1DF41A3C00EAEEEC /* UIColor+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extention.m"; sourceTree = "<group>"; };
+		4EA721CF1DF41B1C00EAEEEC /* WMExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMExtention.h; sourceTree = "<group>"; };
+		4EA721D01DF41C0500EAEEEC /* UIAlertController+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extention.h"; sourceTree = "<group>"; };
+		4EA721D11DF41C0500EAEEEC /* UIAlertController+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extention.m"; sourceTree = "<group>"; };
+		4EA721D31DF4207B00EAEEEC /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extention.h"; sourceTree = "<group>"; };
+		4EA721D41DF4207B00EAEEEC /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extention.m"; sourceTree = "<group>"; };
+		4EA721D61DF422D900EAEEEC /* UIButton+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extention.h"; sourceTree = "<group>"; };
+		4EA721D71DF422D900EAEEEC /* UIButton+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extention.m"; sourceTree = "<group>"; };
+		4EA721D81DF422D900EAEEEC /* UILabel+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extention.h"; sourceTree = "<group>"; };
+		4EA721D91DF422D900EAEEEC /* UILabel+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,7 @@
 		4EA721731DF3E6A500EAEEEC = {
 			isa = PBXGroup;
 			children = (
+				4EA721BD1DF3F81F00EAEEEC /* WMTools.podspec */,
 				4EA7217E1DF3E6A500EAEEEC /* WMTools */,
 				4EA7217D1DF3E6A500EAEEEC /* Products */,
 			);
@@ -86,10 +111,41 @@
 		4EA721961DF3EB0B00EAEEEC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4EA721971DF3EB2C00EAEEEC /* UIView+Extention.h */,
-				4EA721981DF3EB2C00EAEEEC /* UIView+Extention.m */,
+				4EA721DC1DF4234100EAEEEC /* module */,
+				4EA721C51DF4031000EAEEEC /* Extention */,
+				4EA721C21DF3FF9C00EAEEEC /* Toast.h */,
+				4EA721C31DF3FF9C00EAEEEC /* Toast.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		4EA721C51DF4031000EAEEEC /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				4EA721D61DF422D900EAEEEC /* UIButton+Extention.h */,
+				4EA721D71DF422D900EAEEEC /* UIButton+Extention.m */,
+				4EA721D81DF422D900EAEEEC /* UILabel+Extention.h */,
+				4EA721D91DF422D900EAEEEC /* UILabel+Extention.m */,
+				4EA721D31DF4207B00EAEEEC /* UIImage+Extention.h */,
+				4EA721D41DF4207B00EAEEEC /* UIImage+Extention.m */,
+				4EA721D01DF41C0500EAEEEC /* UIAlertController+Extention.h */,
+				4EA721D11DF41C0500EAEEEC /* UIAlertController+Extention.m */,
+				4EA721CC1DF41A3C00EAEEEC /* UIColor+Extention.h */,
+				4EA721CD1DF41A3C00EAEEEC /* UIColor+Extention.m */,
+				4EA721C61DF4031000EAEEEC /* NSString+Extention.h */,
+				4EA721C71DF4031000EAEEEC /* NSString+Extention.m */,
+				4EA721C81DF4031000EAEEEC /* UIView+Extention.h */,
+				4EA721C91DF4031000EAEEEC /* UIView+Extention.m */,
+				4EA721CF1DF41B1C00EAEEEC /* WMExtention.h */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		4EA721DC1DF4234100EAEEEC /* module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA721BE1DF3F81F00EAEEEC /* WMTools.podspec in Resources */,
 				4EA7218F1DF3E6A500EAEEEC /* LaunchScreen.storyboard in Resources */,
 				4EA7218C1DF3E6A500EAEEEC /* Assets.xcassets in Resources */,
 				4EA7218A1DF3E6A500EAEEEC /* Main.storyboard in Resources */,
@@ -164,10 +221,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA721DA1DF422D900EAEEEC /* UIButton+Extention.m in Sources */,
+				4EA721CA1DF4031000EAEEEC /* NSString+Extention.m in Sources */,
+				4EA721CB1DF4031000EAEEEC /* UIView+Extention.m in Sources */,
 				4EA721871DF3E6A500EAEEEC /* ViewController.m in Sources */,
+				4EA721D51DF4207B00EAEEEC /* UIImage+Extention.m in Sources */,
+				4EA721D21DF41C0500EAEEEC /* UIAlertController+Extention.m in Sources */,
+				4EA721DB1DF422D900EAEEEC /* UILabel+Extention.m in Sources */,
 				4EA721841DF3E6A500EAEEEC /* AppDelegate.m in Sources */,
+				4EA721C41DF3FF9C00EAEEEC /* Toast.m in Sources */,
+				4EA721CE1DF41A3C00EAEEEC /* UIColor+Extention.m in Sources */,
 				4EA721811DF3E6A500EAEEEC /* main.m in Sources */,
-				4EA721991DF3EB2C00EAEEEC /* UIView+Extention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
