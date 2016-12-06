@@ -30,7 +30,7 @@
 - (IBAction)click:(UIButton *)sender forEvent:(UIEvent *)event {
     [Toast makeToast:^(Toast *toast) {
         toast.setMsg(@"233".add(event).rm_c(@"()[]{}<>\n"))
-        .hiddenAfter(900)
+        .hiddenAfter(3)
         .show(AnimationTypeFade);
     }];
 

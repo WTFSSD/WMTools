@@ -46,8 +46,25 @@
         self.distanceBottom = 50;
         self.animationDuration = 0.3f;
         self.duration = 1.f;
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didChangeScreen:) name:UIApplicationDidChangeStatusBarFrameNotification object:nil];
     }
     return self;
+}
+
+
+-(void)didChangeScreen:(NSNotification*)noti{
+    
+//    if ([[UIDevice currentDevice] orientation] == UIInterfaceOrientationPortrait
+//        || [[UIDevice currentDevice] orientation] == UIInterfaceOrientationPortraitUpsideDown) {
+//        //竖屏
+//        NSLog(@"竖屏");
+//    } else {
+//        //横屏
+//        NSLog(@"横屏");
+//    }
+    
+    CGSize size = [self sizeWithString:self.msgLabel.text InAre:(CGSize){ScreenWidth*0.8,MAXFLOAT} fontSize:self.textFontSize];
+    self.msgLabel.frame = (CGRect){(ScreenWidth - size.width - 40)*0.5,ScreenHeight - size.height - self.distanceBottom,size.width + 20,size.height + 20};
 }
 
 #ifdef havesingle
@@ -337,6 +354,11 @@
     textSize = [msg boundingRectWithSize:are options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading attributes:attribuite context:nil].size;
     return textSize;
     
+}
+
+-(void)dealloc{
+    NSLog(@"%@",@"toast销毁了");
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 
